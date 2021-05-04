@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 600064971}
   - component: {fileID: 600064970}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: spelText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 805388430}
   - component: {fileID: 805388429}
   m_Layer: 5
-  m_Name: Spel (1)
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -580,7 +580,7 @@ GameObject:
   - component: {fileID: 1095407994}
   - component: {fileID: 1095407993}
   m_Layer: 5
-  m_Name: Spel
+  m_Name: SettingButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 1210411468}
   - component: {fileID: 1210411467}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: quitText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -938,14 +938,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9150943, g: 0.8007954, b: 0.71221966, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e7580c86540be6941a4a8bd42d3066e9, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -975,7 +975,7 @@ GameObject:
   - component: {fileID: 1870822177}
   - component: {fileID: 1870822176}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: settingstext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1112,7 +1112,7 @@ GameObject:
   - component: {fileID: 1978593087}
   - component: {fileID: 1978593086}
   m_Layer: 5
-  m_Name: Spel (2)
+  m_Name: SpelButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
