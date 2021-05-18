@@ -9,6 +9,7 @@ TagManager:
   - fire
   - Wall
   - HealthPickup
+  - jump
   layers:
   - Default
   - TransparentFX

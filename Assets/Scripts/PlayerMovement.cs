@@ -30,20 +30,20 @@ public class PlayerMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if (Input.GetKey("w"))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             rb.AddForce(0, 0, forwardForce * Time.deltaTime, ForceMode.VelocityChange);
         }
 
-        if (Input.GetKey("d"))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             rb.AddForce(leftForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
-        if (Input.GetKey("a"))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             rb.AddForce(rightForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
-        if (Input.GetKey("s"))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             rb.AddForce(0, 0, backwardForce * Time.deltaTime, ForceMode.VelocityChange);
         }
@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (IsGrounded() && Input.GetKeyUp(KeyCode.Space))
+        if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
         {
             canJump = true;
         }
@@ -81,8 +81,6 @@ public class PlayerMovement : MonoBehaviour
 
 
      }
-    
-
 
 
     private void OnDrawGizmos()
