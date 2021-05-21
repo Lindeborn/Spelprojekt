@@ -8,8 +8,9 @@ public class JumpPad : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.name == "Player"){
-            collision.gameObject.GetComponent<Rigidbody>().AddForce(Vector3.up*height);
+        if(collision.gameObject.name == "Player")
+        {
+            collision.gameObject.GetComponent<Rigidbody>().AddForce(Vector3.up * height);
         } 
     }
 }

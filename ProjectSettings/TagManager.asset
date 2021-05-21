@@ -10,6 +10,8 @@ TagManager:
   - Wall
   - HealthPickup
   - jump
+  - Out
+  - In
   layers:
   - Default
   - TransparentFX

@@ -8,18 +8,21 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
 
+    private Vector3 originalPosition;
+
     public HealthBar healthBar;
     
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+
+        originalPosition = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
     }
 
    
     void Update()
     {
-
         
     }
 
@@ -29,6 +32,11 @@ public class PlayerHealth : MonoBehaviour
         
 
         healthBar.SetHealth(currentHealth);
+
+        if(currentHealth == 0){
+            gameObject.transform.position = originalPosition;
+            Start();
+        }
         
     }
 

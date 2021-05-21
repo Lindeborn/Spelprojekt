@@ -9,12 +9,12 @@ public class PushingObstacle : MonoBehaviour
 
     void Update()
     {
-         loop();
+        loop();
     }
  
     void loop()
     {
-         float yPos = Mathf.PingPong(Time.time * speed, 10) * range;
-         transform.position = new Vector3(transform.position.x, yPos, transform.position.z);
+        float yPos = Mathf.PingPong(Time.time * speed, 10) * range;
+        transform.position = new Vector3(transform.position.x, yPos, transform.position.z);
     }
 }
