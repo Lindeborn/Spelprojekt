@@ -3,19 +3,27 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Obstacle
+  - enemy
+  - fire
+  - Wall
+  - HealthPickup
+  - jump
+  - Out
+  - In
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Obstacle
+  - Player
+  - WhatIsEnemy
+  - WhatIsPlayer
+  - lava
   - 
   - 
   - 
